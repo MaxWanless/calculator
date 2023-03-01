@@ -1,10 +1,10 @@
 # 🧮 Calculator
 
-A calculator created using HTML, CSS/SASS, and JavaScript.
+A calculator created using HTML, SASS, and JavaScript.
 
 ## 📲 Live Demo
 
-- [Calculator]()
+- [Calculator](https://maxwanless.github.io/calculator/)
 
 ## 💻 Technologies
 
@@ -14,18 +14,19 @@ A calculator created using HTML, CSS/SASS, and JavaScript.
 
 ## ✨ Features
 
-- Operations: add, subtract, multiply, and divide
-- Percentage: user can get the percentage of the number entered or of any result
-- Clear: the user starts fresh after pressing “clear”
-- Backspace: user can undo if they click the wrong number
+- Users can use add, subtract, multiply, divide and percentage operators
+- Users can clear the work area using the AC button
+- Users can undo mistakes by using the backspace button
 - Users are able to string together several operations
 - An error message is displayed when the user tries to divide by 0
 - Toggle between light/dark mode
 
 ## 📸 Demo
 
-<img src="" alt="./github/Demo.gif"/> <br/>
+https://user-images.githubusercontent.com/109627256/222025434-f268078b-998a-4d98-969a-a8046563f4d3.mp4
 
-## 👩🏻‍💻 Author
+<br/>
+
+## 📬 Contact
 
 <a href="https://www.linkedin.com/in/maxwanless" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
