@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/8e7b84f57c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <!-- Color mode Toggle  -->
+    <header class="header">
+      <div class="mode-toggle">
+        <input
+          type="checkbox"
+          id="themeToggle"
+          class="mode-toggle__checkbox"
+          aria-label="Switch color theme"
+        />
+        <label for="themeToggle" class="mode-toggle__label">
+          <i class="fas fa-sun mode-toggle__icon"></i>
+          <i class="fas fa-moon mode-toggle__icon"></i>
+        </label>
+      </div>
+    </header>
+
+    <main class="calculator__wrapper">
+      <div class="calculator">
+        <!-- Display -->
+        <div class="calculator__output">
+          <div class="calculator__output--operation-display"></div>
+          <div class="calculator__output--main-display">0</div>
+        </div>
+
+        <!-- Keypad -->
+        <div class="calculator__keypad">
+          <button
+            type="button"
+            data-target="clear"
+            data-key="Delete"
+            class="button button__icon--blue"
+            aria-label="Clear"
+          >
+            AC
+          </button>
+          <button
+            type="button"
+            data-target="backspace"
+            data-key="Backspace"
+            class="button"
+            aria-label="Clear"
+          >
+            <i
+              class="fa-solid fa-delete-left button__icon button__icon--blue"
+            ></i>
+          </button>
+          <button
+            type="button"
+            data-target="percentage"
+            data-key="%"
+            class="button"
+            aria-label="Clear"
+          >
+            <i class="fa-solid fa-percent button__icon button__icon--blue"></i>
+          </button>
+          <button
+            type="button"
+            data-target="operator"
+            data-operation="divide"
+            data-key="/"
+            class="button"
+            aria-label="Clear"
+          >
+            <i class="fa-solid fa-divide button__icon button__icon--blue"></i>
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="7"
+            class="button"
+          >
+            7
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="8"
+            class="button"
+          >
+            8
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="9"
+            class="button"
+          >
+            9
+          </button>
+          <button
+            type="button"
+            data-target="operator"
+            data-operation="multiply"
+            data-key="*"
+            class="button"
+            aria-label="Multiply"
+          >
+            <i class="fa-solid fa-xmark button__icon button__icon--blue"></i>
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="4"
+            class="button"
+          >
+            4
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="5"
+            class="button"
+          >
+            5
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="6"
+            class="button"
+          >
+            6
+          </button>
+          <button
+            type="button"
+            data-target="operator"
+            data-operation="subtract"
+            data-key="-"
+            class="button"
+            aria-label="Subtract"
+          >
+            <i class="fa-solid fa-minus button__icon button__icon--blue"></i>
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="1"
+            class="button"
+          >
+            1
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="2"
+            class="button"
+          >
+            2
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="3"
+            class="button"
+          >
+            3
+          </button>
+          <button
+            type="button"
+            data-target="operator"
+            data-operation="add"
+            data-key="+"
+            class="button"
+            aria-label="Add"
+          >
+            <i class="fa-solid fa-plus button__icon button__icon--blue"></i>
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="0"
+            class="button"
+          >
+            0
+          </button>
+          <button
+            type="button"
+            data-target="operand"
+            data-key="."
+            class="button"
+          >
+            .
+          </button>
+          <button
+            type="button"
+            data-target="result"
+            data-key="Enter"
+            class="button button--span-2-col"
+            aria-label="Equals"
+          >
+            <i class="fa-solid fa-equals button__icon button__icon--blue"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <h3 class="footer__text">
+        Made by <span class="footer__text--magic"> Max Wanless </span>
+      </h3>
+      <a href="https://www.linkedin.com/in/maxwanless">
+        <i class="fa-brands fa-linkedin footer__icon"></i
+      ></a>
+      <a href="https://github.com/MaxWanless">
+        <i class="fa-brands fa-github footer__icon"></i
+      ></a>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
